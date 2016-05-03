@@ -31,6 +31,8 @@
 /GRTAGS
 /GSYMS
 /GTAGS
+/build
+/build_debug
 .gitusers
 autom4te.cache
 cscope.files

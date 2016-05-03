@@ -27,7 +27,11 @@ void initializeCore(PassRegistry&);
 /// TransformUtils library.
 void initializeTransformUtils(PassRegistry&);
 
-/// initializeScalarOpts - Initialize all passes linked into the
+/// COT
+/// COT library.
+void initializeCOT(PassRegistry &);
+
+// initializeScalarOpts - Initialize all passes linked into the
 /// ScalarOpts library.
 void initializeScalarOpts(PassRegistry&);
 
@@ -337,6 +341,8 @@ void initializeFunctionImportPassPass(PassRegistry &);
 void initializeLoopVersioningPassPass(PassRegistry &);
 void initializeWholeProgramDevirtPass(PassRegistry &);
 void initializePatchableFunctionPass(PassRegistry &);
+
+void initializeCOT1Pass(PassRegistry &);
 }
 
 #endif
