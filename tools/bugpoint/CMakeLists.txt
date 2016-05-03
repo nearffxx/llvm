@@ -9,6 +9,7 @@ set(LLVM_LINK_COMPONENTS
   Instrumentation
   Linker
   ObjCARCOpts
+  COT
   ScalarOpts
   Support
   Target

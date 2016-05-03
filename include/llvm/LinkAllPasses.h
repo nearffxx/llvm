@@ -41,6 +41,7 @@
 #include "llvm/Transforms/IPO/FunctionAttrs.h"
 #include "llvm/Transforms/Instrumentation.h"
 #include "llvm/Transforms/ObjCARC.h"
+#include "llvm/Transforms/COT.h"
 #include "llvm/Transforms/Scalar.h"
 #include "llvm/Transforms/Scalar/GVN.h"
 #include "llvm/Transforms/Utils/SymbolRewriter.h"
@@ -78,6 +79,7 @@ namespace {
       (void) llvm::createConstantMergePass();
       (void) llvm::createConstantPropagationPass();
       (void) llvm::createCostModelAnalysisPass();
+      (void) llvm::createCOT1Pass();
       (void) llvm::createDeadArgEliminationPass();
       (void) llvm::createDeadCodeEliminationPass();
       (void) llvm::createDeadInstEliminationPass();
