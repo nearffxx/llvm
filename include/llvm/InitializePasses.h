@@ -334,8 +334,6 @@ void initializeVirtRegRewriterPass(PassRegistry&);
 void initializeWholeProgramDevirtPass(PassRegistry &);
 void initializeWinEHPreparePass(PassRegistry&);
 void initializeWriteBitcodePassPass(PassRegistry &);
-<<<<<<< 7ca89ec4a83b3f76d8bca2f940f515f1c2a9661e
-=======
 void initializePlaceBackedgeSafepointsImplPass(PassRegistry&);
 void initializePlaceSafepointsPass(PassRegistry&);
 void initializeDwarfEHPreparePass(PassRegistry&);
@@ -351,7 +349,6 @@ void initializeWholeProgramDevirtPass(PassRegistry &);
 void initializePatchableFunctionPass(PassRegistry &);
 
 void initializeCOT1Pass(PassRegistry &);
->>>>>>> first in-tree pass
 }
 
 #endif

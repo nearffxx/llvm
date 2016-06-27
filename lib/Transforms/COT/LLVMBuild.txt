@@ -19,4 +19,4 @@
 type = Library
 name = COT
 parent = Transforms
-required_libraries = Analysis Core Support
+required_libraries = Analysis Core Support TransformUtils
